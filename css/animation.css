@@ -1,0 +1,29 @@
+/* cascading style sheets for animation
+h1{
+    animation-name: text-down;
+    animation-duration: 4s;
+}
+@keyframes text-down {
+    0%{
+        transform: translateX(-200px);
+    }
+    
+    100%{
+        transform: translateX(0px);
+    }
+
+}
+#h1-tagline{
+    animation-name:text-up ;
+    animation-duration: 4s
+}
+@keyframes text-down {
+    0%{
+        transform: translatex(200px);
+    }
+    
+    100%{
+        transform: translateX(0px);
+    }
+
+} */
